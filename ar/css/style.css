@@ -62,7 +62,7 @@ body {
 
 .sub-header>div>nav>ul>li>a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: color 0.4s ease;
@@ -82,15 +82,18 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    border-left: 2px solid white;
-    padding-left: 30px;
 }
 
-.wbsite-sprache>div:nth-child(1) {
+.wbsite-sprache {
+    border-right: 2px solid white;
+    padding-right: 30px;
+}
+
+.wbsite-sprache>div:nth-child(3) {
     background-color: rgb(238, 238, 238);
 }
 
-.wbsite-sprache>div:nth-child(1)>a {
+.wbsite-sprache>div:nth-child(3)>a {
     color: black;
 }
 
@@ -144,15 +147,16 @@ body {
 .banner-titel p {
     width: 750px;
     line-height: 1.5;
-    border-left: 5px solid rgb(60, 254, 46);
-    padding-left: 15px;
+    border-right: 5px solid rgb(60, 254, 46);
+    padding-right: 15px;
+    font-size: 1.3em;
 
 }
 
 .banner-image {
     position: absolute;
     /*position: absolute: um z-index richtig zu funktionieren*/
-    right: -3%;
+    left: -3%;
     top: 3%;
     z-index: 1;
 }
@@ -164,6 +168,7 @@ body {
 
 .banner-button {
     margin-top: 50px;
+    font-size: 1.2em;
 }
 
 .banner-button>a>button {
@@ -194,11 +199,12 @@ body {
 
 .about>h2 {
     margin-bottom: 30px;
+    font-size: 2em;
 }
 
 .about>p {
     width: 600px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.6;
     color: rgba(128, 128, 128, 0.785);
     font-weight: bold;
@@ -248,11 +254,12 @@ hr {
 
 .project-titel h2 {
     margin-bottom: 18px;
+    font-size: 2em;
 }
 
 .project-titel p {
     color: rgb(114, 114, 114);
-    font-size: 1.1em;
+    font-size: 1.3em;
     width: 80%;
     line-height: 1.5;
 }
@@ -280,12 +287,16 @@ hr {
 .project-box>a>h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 1.5em;
+    padding-right: 10px;
+
 }
 
 .project-box>a>p {
+    padding-left: 10px;
     padding-right: 10px;
     color: rgb(114, 114, 114);
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.5;
 }
 
@@ -297,7 +308,6 @@ hr {
 }
 
 /* hero-Section */
-
 .main-hero {
     background-color: rgb(100, 60, 161);
     padding: 50px 30px;
@@ -313,22 +323,25 @@ hr {
 
 .benefit-titel h2 {
     margin-bottom: 50px;
-}
-
-.hero>p {
     font-size: 2em;
 }
 
+.hero>p {
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
 .hero>span>p {
-    margin-top: 30px;
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* Social-Media */
 .sub-social-media {
     position: absolute;
-    right: -3px;
+    left: -3px;
     bottom: 40%;
     z-index: 1000;
 }
@@ -336,12 +349,12 @@ hr {
 .sub-social-media {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     gap: 13px;
     position: fixed;
     background-color: rgb(60, 254, 46);
     padding: 8px 13px;
-    border-radius: 20px 0 0 20px;
+    border-radius: 0 20px 20px 0;
 }
 
 .social>a>i {
@@ -367,11 +380,15 @@ hr {
     margin-bottom: 50px;
 }
 
+.services-titel h2 {
+    font-size: 2em;
+}
+
 .services-titel p {
     margin-top: 18px;
     width: 70%;
     line-height: 1.5;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: rgb(114, 114, 114);
 }
 
@@ -380,7 +397,6 @@ hr {
     justify-content: space-between;
     text-align: center;
     color: white;
-
 }
 
 .sub-services {
@@ -393,7 +409,7 @@ hr {
 }
 
 .info-srvices>span {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     line-height: 1.5;
 }
@@ -406,7 +422,7 @@ hr {
 
 .info-srvices>p {
     line-height: 1.5;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-top: 10px;
 }
 
@@ -422,12 +438,13 @@ hr {
 
 .contact-titel h2 {
     margin-bottom: 18px;
+    font-size: 2em;
 }
 
 .contact-titel p {
     width: 70%;
     line-height: 1.5;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-bottom: 30px;
     color: rgb(114, 114, 114);
 }
@@ -475,11 +492,12 @@ hr {
 
 .ps-titel>h2 {
     margin-bottom: 18px;
+    font-size: 2em;
 }
 
 .ps-titel>p {
     color: rgb(114, 114, 114);
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.5;
     width: 80%;
 }
@@ -557,5 +575,5 @@ form>button {
     color: white;
     padding: 10px;
     margin-top: 50px;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }

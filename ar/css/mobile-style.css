@@ -21,7 +21,7 @@
         z-index: 100;
         position: fixed;
         top: 25px;
-        right: 30px;
+        left: 30px;
     }
 
     .hamburger span {
@@ -39,7 +39,7 @@
     .menu {
         position: fixed;
         top: 71px;
-        left: -100%;
+        right: -100%;
         width: 60%;
         max-width: 300px;
         height: 100vh;
@@ -50,7 +50,7 @@
     }
 
     .menu-toggle:checked~.menu {
-        left: 0;
+        right: 0;
     }
 
     .menu-toggle:checked+.hamburger span:nth-child(1) {
@@ -132,7 +132,7 @@
 
     .banner-titel p {
         width: 100%;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .sub-banner>.banner-image>img {
@@ -168,10 +168,11 @@
         width: 100%;
         margin-bottom: 20px;
         font-size: 1.3em;
+        line-height: 1.6;
     }
 
     .about>h2 {
-        font-size: 1.8em;
+        font-size: 2em;
         text-align: center;
     }
 
@@ -185,12 +186,13 @@
     }
 
     .project-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .project-titel p {
         width: 100%;
         padding-right: revert;
+        font-size: 1.4em;
 
     }
 
@@ -205,13 +207,17 @@
         font-size: 1.5em;
     }
 
+    .project-box>a>p {
+        font-size: 1.3em;
+    }
+
     /* hero-section */
     .main-hero {
         text-align: center;
     }
 
     .main-hero h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .hero {
@@ -233,7 +239,7 @@
     }
 
     .services-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .services-titel p {
@@ -248,7 +254,7 @@
     }
 
     .info-srvices>span {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
 
     .info-srvices>p {
@@ -257,7 +263,7 @@
 
     /* Contact */
     .contact-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .contact-titel p {
@@ -313,11 +319,13 @@
 
     /* Project Start */
     .ps-titel>h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .ps-titel>p {
         font-size: 1.3em;
+        margin: 0 auto;
+        width: 100%;
     }
 
     input {
@@ -376,7 +384,7 @@
         z-index: 100;
         position: fixed;
         top: 25px;
-        right: 30px;
+        left: 30px;
     }
 
     .hamburger span {
@@ -394,7 +402,7 @@
     .menu {
         position: fixed;
         top: 71px;
-        left: -100%;
+        right: -100%;
         width: 80%;
         max-width: 300px;
         height: 100vh;
@@ -405,7 +413,7 @@
     }
 
     .menu-toggle:checked~.menu {
-        left: 0;
+        right: 0;
     }
 
     .menu-toggle:checked+.hamburger span:nth-child(1) {
@@ -488,7 +496,7 @@
 
     .banner-titel p {
         width: 100%;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .sub-banner>.banner-image>img {
@@ -520,10 +528,12 @@
         text-align: start;
         margin-bottom: 20px;
         font-size: 1.3em;
+        line-height: 1.6;
+
     }
 
     .about>h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .gmail-button {
@@ -532,13 +542,13 @@
 
     /* Projects */
     .project-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .project-titel p {
         width: 100%;
         padding-right: revert;
-
+        font-size: 1.4em;
     }
 
     .project-box h3 {
@@ -546,13 +556,18 @@
         line-height: 1.5;
     }
 
+    .project-box>a>p {
+        font-size: 1.3em;
+    }
+
+
     /* hero-section */
     .main-hero {
         /* text-align: center; */
     }
 
     .main-hero h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .hero {
@@ -566,7 +581,7 @@
 
     /* Services */
     .services-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .services-titel p {
@@ -590,7 +605,7 @@
 
     /* Contact */
     .contact-titel h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .contact-titel p {
@@ -615,11 +630,12 @@
 
     /* Project Start */
     .ps-titel>h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .ps-titel>p {
         font-size: 1.3em;
+        width: 100%;
     }
 
     input {

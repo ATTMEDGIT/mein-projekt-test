@@ -24,7 +24,7 @@
         z-index: 100;
         position: fixed;
         top: 25px;
-        right: 30px;
+        left: 30px;
     }
 
     .hamburger span {
@@ -42,7 +42,7 @@
     .menu {
         position: fixed;
         top: 71px;
-        left: -100%;
+        right: -100%;
         width: 80%;
         max-width: 300px;
         height: 100vh;
@@ -53,7 +53,7 @@
     }
 
     .menu-toggle:checked~.menu {
-        left: 0;
+        right: 0;
     }
 
     .menu-toggle:checked+.hamburger span:nth-child(1) {
@@ -136,8 +136,8 @@
     .banner-titel {}
 
     .banner-titel p {
-        width: 100%;
-        font-size: 1.3em;
+        width: 90%;
+        font-size: 1.5em;
     }
 
     /* About */
@@ -158,11 +158,11 @@
         width: 100%;
         text-align: start;
         margin-bottom: 20px;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .about>h2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .gmail-button {
@@ -223,12 +223,6 @@
     .whatsapp-button {
         font-size: 1.5em;
     }
-
-
-
-
-
-
 
 
 
