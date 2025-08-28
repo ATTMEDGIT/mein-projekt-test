@@ -261,6 +261,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 18px;
+    row-gap: 40px;
 }
 
 .project-box {
@@ -272,28 +273,47 @@ hr {
     transform: translateY(-9px);
 }
 
-.project-box>a {
+.project-box {
     text-decoration: none;
     color: black;
 }
 
-.project-box>a>h3 {
+.project-box>div>h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.project-box>a>p {
+.project-box>div>p {
     padding-right: 10px;
     color: rgb(114, 114, 114);
     font-size: 1.1em;
     line-height: 1.5;
 }
 
-.project-box>a>img {
+.project-box>img {
     width: 100%;
     display: block;
     height: auto;
     border-radius: 8px;
+}
+
+/* .project-box:nth-child(1)>a>button {
+    margin-top: 46px;
+}
+
+.project-box:nth-child(3)>a>button {
+    margin-top: 46px;
+} */
+
+.project-box>div>a>button {
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: rgb(60, 254, 46);
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-weight: bold;
 }
 
 /* hero-Section */
