@@ -212,8 +212,13 @@
         padding: 0 30px;
     }
 
+    .project-box>div>p {
+        /* margin: 0 auto; */
+    }
+
     .project-box>div>h3 {
         font-size: 1.5em;
+        line-height: 1.5;
     }
 
     .project-box>div>a>button {

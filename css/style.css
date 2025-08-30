@@ -190,6 +190,7 @@ body {
 .sub-about>img {
     width: 180px;
     border-radius: 300px;
+    /* border: 5px solid rgb(255, 255, 255); */
 }
 
 .about>h2 {
@@ -310,10 +311,11 @@ hr {
     border: none;
     margin-top: 15px;
     cursor: pointer;
-    background-color: rgb(60, 254, 46);
+    background-color: rgb(100, 60, 161);
     border-radius: 100px;
     padding: 10px 15px;
     font-weight: bold;
+    color: white;
 }
 
 /* hero-Section */
@@ -348,7 +350,7 @@ hr {
 /* Social-Media */
 .sub-social-media {
     position: absolute;
-    right: -3px;
+    right: -5px;
     bottom: 40%;
     z-index: 1000;
 }
@@ -357,15 +359,18 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
+    gap: 3px;
     position: fixed;
+}
+
+.social {
     background-color: rgb(60, 254, 46);
     padding: 8px 13px;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 .social>a>i {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .social>a {
